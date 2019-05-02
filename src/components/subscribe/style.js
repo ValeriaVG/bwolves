@@ -1,4 +1,4 @@
-import { css } from 'emotion'
+import { css } from "emotion";
 
 export default css`
   background: #111111;
@@ -47,12 +47,16 @@ export default css`
       cursor: pointer;
       text-transform: uppercase;
       color: white;
-      transition: 300ms ease;
-      &:hover {
+      transition: border-color 300ms ease;
+      transition: background-color 300ms ease;
+      &:hover,
+      &:focus,
+      &:active {
         border-color: rgba(255, 255, 255, 1);
         background: rgba(255, 255, 255, 0.08);
-        transition: 300ms ease;
+        transition: border-color 300ms ease;
+        transition: background-color 300ms ease;
       }
     }
   }
-`
+`;
