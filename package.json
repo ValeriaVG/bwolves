@@ -12,7 +12,7 @@
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest",
-    "now-build": "preact build"
+    "now-build": "npm run -s build"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
