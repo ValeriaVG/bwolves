@@ -2,6 +2,7 @@
   flex-grow: 1;
   width: 100%;
   position: relative;
+  min-height: 200px;
 }
 .logo {
   position: absolute;

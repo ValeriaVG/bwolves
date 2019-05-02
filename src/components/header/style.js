@@ -9,6 +9,7 @@ export default css`
     color: rgba(0, 0, 0, 0.9);
     img {
       width: 32px;
+      height: 32px;
     }
     .title {
       display: flex;
