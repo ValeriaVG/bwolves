@@ -24,7 +24,7 @@ export default css`
       .slogan {
         font-size: 12px;
         font-weight: 400;
-        color: rgba(0, 0, 0, 0.5);
+        color: rgba(0, 0, 0, 0.75);
       }
     }
   }
