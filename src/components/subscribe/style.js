@@ -13,6 +13,7 @@ export default css`
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    flex-shrink: 1;
     margin-right: 16px;
     h2 {
       margin: 0 16px 8px 0;
@@ -28,6 +29,7 @@ export default css`
       height: 32px;
       background: transparent;
       color: white;
+      width: 100%;
       &:focus {
         border-bottom-color: rgba(255, 255, 255, 0.5);
       }
