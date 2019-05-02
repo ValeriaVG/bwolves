@@ -47,15 +47,14 @@ export default css`
       cursor: pointer;
       text-transform: uppercase;
       color: white;
-      transition: border-color 300ms ease;
-      transition: background-color 300ms ease;
+      transition: border-color 300ms ease, background-color 300ms ease;
+
       &:hover,
       &:focus,
       &:active {
         border-color: rgba(255, 255, 255, 1);
         background: rgba(255, 255, 255, 0.08);
-        transition: border-color 300ms ease;
-        transition: background-color 300ms ease;
+        transition: border-color 300ms ease, background-color 300ms ease;
       }
     }
   }
