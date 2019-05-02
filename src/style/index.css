@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  color: rgba(0, 0, 0, 0.5);
+  transition: 300ms ease;
+}
+a:hover {
+  color: rgba(0, 0, 0, 1);
+  transition: 300ms ease;
+}
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
