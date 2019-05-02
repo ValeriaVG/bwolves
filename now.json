@@ -2,6 +2,7 @@
   "version": 2,
   "name": "bwolves",
   "alias": "bwolves.com",
+  "scope": "teambwolves",
   "builds": [
     {
       "src": "package.json",
