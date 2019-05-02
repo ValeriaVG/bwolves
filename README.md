@@ -1,3 +1,3 @@
-# bWolves
+# BWolves
 
 Website in development
