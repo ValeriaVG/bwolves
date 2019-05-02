@@ -1,4 +1,4 @@
-import Home from '../src/routes/home'
+import Home from './.'
 
 // See: https://github.com/mzgoddard/preact-render-spy
 import { shallow } from 'preact-render-spy'
