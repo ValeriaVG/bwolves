@@ -1,7 +1,7 @@
 import { css } from 'emotion'
 
 export default css`
-  background: #1d1d1f;
+  background: #111111;
   color: white;
   padding: 32px 16px;
   .wrapper {
