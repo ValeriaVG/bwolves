@@ -3,6 +3,7 @@ import { Router } from 'preact-router'
 import './style'
 // Code-splitting is automated for routes
 import Home from './routes/home'
+// import About from './routes/about'
 import Footer from './components/footer'
 import Header from './components/header'
 import Subscribe from './components/subscribe'
@@ -21,6 +22,7 @@ export default class App extends Component {
         <Header />
         <Router onChange={this.handleRoute}>
           <Home path="/" />
+          {/* <About path="/about" /> */}
         </Router>
         <Subscribe />
         <Footer />
