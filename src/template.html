@@ -37,6 +37,7 @@
   </head>
   <body>
     <%= htmlWebpackPlugin.options.ssr({ url: '/' }) %>
+
     <script
       defer
       src="<%= htmlWebpackPlugin.files.chunks['bundle'].entry %>"

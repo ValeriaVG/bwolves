@@ -4,6 +4,7 @@ import './style'
 // Code-splitting is automated for routes
 import Home from './routes/home'
 // import About from './routes/about'
+import NormalityEqDanger from './routes/blog/normality-equals-danger'
 import Footer from './components/footer'
 import Header from './components/header'
 import Subscribe from './components/subscribe'
@@ -13,6 +14,9 @@ export default class App extends Component {
    *	@param {string} event.url	The newly routed URL
    */
   handleRoute = e => {
+    if (this.currentUrl !== e.url) {
+      window.scrollTo(0, 0)
+    }
     this.currentUrl = e.url
   }
 
@@ -22,6 +26,7 @@ export default class App extends Component {
         <Header />
         <Router onChange={this.handleRoute}>
           <Home path="/" />
+          <NormalityEqDanger path="/blog/normality-equals-danger" />
           {/* <About path="/about" /> */}
         </Router>
         <Subscribe />
